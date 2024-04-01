@@ -96,19 +96,19 @@
     }
 
     &[data-placement^="top"] > .tippy-arrow::before {
-        bottom: -6.5px;
+        bottom: var(--popover-tippy-arrow-before-offset);
     }
 
     &[data-placement^="bottom"] > .tippy-arrow::before {
-        top: -6.5px;
+        top: var(--popover-tippy-arrow-before-offset);
     }
 
     &[data-placement^="left"] > .tippy-arrow::before {
-        right: -6.5px;
+        right: var(--popover-tippy-arrow-before-offset);
     }
 
     &[data-placement^="right"] > .tippy-arrow::before {
-        left: -6.5px;
+        left: var(--popover-tippy-arrow-before-offset);
     }
 }
 
