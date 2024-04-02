@@ -45,7 +45,7 @@ workflows:
 
 ## Combined views
 
-### All messages
+### Global feed
 
 {!all-messages.md!}
 
